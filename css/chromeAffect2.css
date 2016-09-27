@@ -1,0 +1,37 @@
+/*
+# means id
+. means class
+*/
+
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #1f253d;
+	overflow:hidden;
+} 
+
+
+
+
+#containerBg {height: auto;  max-width: 100%; margin: auto; border-style: dotted;}
+
+#containerBg img { max-width: 100%; max-height: 100%; } 
+
+
+
+
+#containerBgOutside { height: auto;  max-width: 100%; margin: auto; }
+
+#containerBgOutside img { max-width: 100%; max-height: 100%; } 
+
+#containerBgInside { height: auto;  max-width: 100%; margin: auto; position:absolute; z-index:16777269; top:0px; left: 0px; }
+
+#containerBgInside img { max-width: 100%; max-height: 100%; }
+
+#containerBgInside2{ height: auto;  max-width: 100%; margin: auto; position:absolute; z-index:16777270; top:0px; left: 0px; }
+
+#containerBgInside2 img { max-width: 100%; max-height: 100%; } 
+
+

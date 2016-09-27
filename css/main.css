@@ -1,0 +1,206 @@
+/*
+# means id
+. means class
+*/
+
+
+#canvas1 { 
+    border:1px solid #000000;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #1f253d;
+	overflow:hidden;
+} 
+
+
+.spaceBetween{height:5px;}
+
+
+#topMenu{ margin-left:2px;}
+
+#theCopyId{ background-color: #50597b; border-radius: 5px; padding: 5px; margin-left: 5px;
+    margin-right: 5px; color: #ffffff;
+       overflow:auto; background-image: url("umdgcBrandSms.png"); background-repeat: no-repeat; 	background-position: center; 
+/*height:auto;
+min-height:50px;
+height:auto !important;        /* for IE as it does not support min-height */
+*/
+}
+
+/* border-style: dotted; padding: 0px 5px 0px 0px;*/
+
+#mainConitainer{ position:absolute; width:100%; z-index:10; top:5px; left: 10px; }
+
+#welcomeMessage{font-size: 54px; color:#ffffff; }
+#randomQuotes{  height:70px; padding: 0px 5px 0px 0px;  overflow:hidden; }
+.randomQuotesInside{ position: relative; display:none; font-size: 16px; color:#ffffff; }
+
+/* .quotes{font-size: 16px; color:#ffffff; display:none; position: absolute; top: 0%; left: 0%; transform: translate(0%,0%);} */
+
+/*.quotes{font-size: 16px; color:#ffffff; display:none; } */
+
+.quotes{font-size: 16px; color:#ffffff; }
+
+
+#containerWeather{ display:table;  width:100%; }
+
+#containerWeatherInside { width:100%; display:table-cell; vertical-align:top; text-align:center; }
+
+#weatherIcon{  }
+
+#weatherIcon1{display:inline-block }
+#weatherIconSpace{display:inline-block; width: 10px; }
+#weatherFahrenheit{display:inline-block; color:#ffffff; font-size: 20px;}
+#weatherFahrenheitTemp{display:inline-block; color:#ffffff; font-size: 40px; letter-spacing: -2px;}
+#weatherCelsius {display:inline-block; color:#ffffff; font-size: 20px; }
+#weatherCelsiusTemp {display:inline-block; color:#ffffff; font-size: 40px; letter-spacing:-2px; }
+
+/* Use this combination to make a div that declared as table to center its self */
+#conatinerRow34And5 { display:table; margin: auto; padding: 0px 0px 0px 67px; }
+#weather2ndRow{   float: left; margin: 0; padding: 0; clear: both;}
+#weather3rdRow {  float: left; margin: 0; padding: 0; clear: both;  }
+#weather4thRow { float: left; margin: 0; padding: 0; clear: both;  }
+ 
+
+#conatinerRow67And8 { display:table; margin: auto; padding: 0px 0px 0px 0px; }
+
+/* Weather Second Row */
+#weatherFeelsLike{display:inline-block; color:#ffffff; font-size: 12px;}
+#weatherweatherFeelsLikeFahrenheit{display:inline-block; color:#ffffff; font-size: 10px;}
+#weatherweatherFeelsLikeFahrenheitTemp{display:inline-block; color:#ffffff; font-size: 17px; letter-spacing: -1px;}
+#weatherweatherFeelsLikeCelsius {display:inline-block; color:#ffffff; font-size: 10px; }
+#weatherweatherFeelsLikeCelsiusTemp {display:inline-block; color:#ffffff; font-size: 17px; letter-spacing: -1px; }
+
+/* Weather Third Row */
+#weatherIs{color:#ffffff; font-size: 20px; letter-spacing: 0px; }
+
+/* Weather Forth Row */
+
+#weather4thRow{ margin-top: -10px;}
+
+/* Weather Fifth Row */
+#weather5thRow{ color:#ffffff; padding:0; margin:0px 0px 0px 0px;  font-size: 12px;}
+#weatherLeft { display:inline-block; text-align: right; padding: 0px 10px 0px 0px; margin:0px 0px 0px 0px;  }
+#weatherRight { display:inline-block; text-align: left; padding:0; margin:0px 0px 0px 0px; }
+
+#weatherLeft div { margin-top: -10px;}
+#weatherRight div { margin-top: -10px;}
+
+#myLocation { font-size: 25px; color:#ffffff;}
+
+#myDateAndTime { display: table-cell; padding: 6px 0px 0px 0px;}
+#myDateAndTimeLeft{float: left; font-size: 25px; color:#ffffff; }
+#myDateAndTimeRight{float: left;  color:#ffffff; padding: 2px 0px 0px 0px; }
+.timeAndDateInfoInside{font-size: 22px;}
+
+#theDay{float: left;  font-size: 40px; color:#ffffff; padding: 0px 5px 0px 0px; margin-top: -14px;  }
+#theDate{float: left;  font-size: 18px; color:#ffffff; padding: 0px 10px 0px 0px; }
+
+/* #theDate div { margin-top: 0px; border-style: dotted; } */
+#theDateRow1 { margin-top: -10px;  letter-spacing: 1px;}
+#theDateRow2 { margin-top: -28px;  }
+
+#spaceBetweenMpdAndDate {height:10px; }
+
+#mpdInfo { width:530px;height:130px;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;background:rgba(235,140,18,0.8); padding: 9px 0px 0px 10px; color: #ffffff;}
+
+#mpdInfoLeft { float: left; padding: 0px 20px 0px 0px;}
+#mpdInfoRight { float: left; }
+
+#spaceBetweenMpdClientsAndIp {height:5px; }
+
+/*The behavior is wierd I need to do this or the link starts off blue */
+#mpdInfoRightTop a:link { color:#FFF; text-decoration:none;  }
+
+#mpdInfoRightBottom a:link {color:#FFF; text-decoration:none; }
+
+.clickSendEmailInfoInside {float: left;}
+.currentEmail {float: left;}
+
+#windSpeed{font-size: 14px; position: relative; border-style: dotted; display: inline-block;}
+#currentTempF{font-size: 14px; position: relative; border-style: dotted; display: inline-block;}
+#currentTempC{font-size: 14px; position: relative; border-style: dotted; display: inline-block;}
+
+
+
+
+
+#humidity{font-size: 14px; position: relative; border-style: dotted; display: inline-block;}
+#feelsLikeF{font-size: 14px; position: relative; border-style: dotted; display: inline-block;}
+#feelsLikeC{font-size: 14px; position: relative; border-style: dotted; display: inline-block;}
+#percipitationInches{font-size: 14px; position: relative; border-style: dotted; display: inline-block;}
+#percipitationMetric{font-size: 14px; position: relative; border-style: dotted; display: inline-block;}
+#locationId{ position: relative;  display: inline-block;}
+#weatherString{font-size: 14px; position: relative; border-style: dotted; display: inline-block;}
+
+#wanIpInfo{ position: relative;  display: inline-block;}
+#lanIpInfo{ position: relative; }
+
+#timeAndDateInfo{ position: relative; display: inline-block;}
+
+#clickSendEmailInfo{ display: inline-block; }
+
+
+/*****/
+#containerBgOutside { height: auto;  max-width: 100%; margin: auto; }
+
+#containerBgInside { height: auto;  max-width: 100%; margin: auto; position:absolute; z-index:5; top:0px; left: 0px; }
+
+#containerBgInside img { max-width: 100%; max-height: 100%; }
+
+#containerBgInside2{ height: auto;  max-width: 100%; margin: auto; position:absolute; z-index:6; top:0px; left: 0px; }
+
+#containerBgInside2 img { max-width: 100%; max-height: 100%; } 
+
+#photoCredit {  position: absolute; bottom: 0; right: 0; z-index:7; padding-right: 5px; padding-bottom: 2px;}
+
+#photoCredit a:link { color:#FFF; text-decoration:none; font-weight:bold; }
+#photoCredit a:visited { color: #FFF; text-decoration:none; font-weight:bold; }
+#photoCredit a:hover { color: #FFF; text-decoration:underline; font-weight:bold; }
+#photoCredit a:active { color: #FFF; text-decoration:none; font-weight:bold; }
+
+
+
+
+.sendEmailInside{font-size: 24px; display: inline-block; border-style: dotted; }
+
+#input {
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    background-color: white;
+    background-color: -moz-field;
+    border: 1px solid darkgray;
+    box-shadow: 1px 1px 1px 0 lightgray inset;  
+    font: -moz-field;
+    font: -webkit-small-control;
+    margin-top: 0px;
+    padding: 2px 2px;
+    width: 398px; 
+	color: black;  
+	height: 20px;
+	
+}
+
+
+#mainWord{ background-color: #6495ed; border-radius: 5px; padding: 5px; margin-left: 5px;
+    margin-right: 5px; min-height: 20px;}
+#ofImportanceWords{ background-color: #e64c65; border-radius: 5px; padding: 5px; margin-left: 5px;
+    margin-right: 5px; color: #ffffff; min-height: 20px;}
+
+#theDefiniton{ background-color: #6495ed;
+	/*background-image: url("papar_texture_thumb03.jpg");  */
+	border-radius: 5px; min-height: 20px; position: relative; padding: 5px; margin-left: 5px; margin-right: 5px;
+
+}
+
+
+/*This is to style the tool tips*/
+label {
+	display: inline-block;
+	width: 15em;
+}
+
